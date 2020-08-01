@@ -37,9 +37,9 @@ a {
 }
 
 .logo {
-	height: 155px;
+	height: 150px;
 	position: fixed;
-	top: 77px;
+	top: 75px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
