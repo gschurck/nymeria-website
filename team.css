@@ -1,6 +1,9 @@
 html {
+	/*
 	background: rgb(17,17,29);
 background: linear-gradient(180deg, rgba(17,17,29,1) 0%, rgba(139,106,39,1) 76%, rgba(186,140,43,1) 100%, rgba(251,188,49,1) 100%);
+*/
+
 }
 
 .spacer {
@@ -20,8 +23,25 @@ h2 {
 	font-family: "IntegralCF-Regular";
 	font-style: italic;
 	letter-spacing: 3px;
+	font-size: 40px;
+
 }
 
 .listejeux {
 	  text-align: center;
+}
+
+.jeu {
+	overflow: hidden;
+	padding-top: 100px;
+	width: 60vw;
+	    margin-left: auto;
+    margin-right: auto;
+}
+
+.gamepicture {
+	z-index: 1;
+		border-radius: 50px;
+	width: 100%;
+	filter: blur(5px) grayscale(20%) brightness(80%);
 }

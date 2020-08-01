@@ -12,7 +12,8 @@ html {
 	background-color: #11111d;
 }
 header {
-	height: 70px;
+	z-index: 10;
+	height: 50px;
 	text-align: center;
 	background: #11111d;
 	color: white;
@@ -40,19 +41,19 @@ header {
 }
 
 .logo {
-	height: 150px;
+		z-index: 11;
+	height: 110px;
 	position: fixed;
-	top: 75px;
+	top: 54px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
 .pages {
 
-	margin-top: 15px;
+	margin-top: 7px;
 	font-family: IntegralCF-Regular;
 	font-style: bold;
-	font-size: 1em;
+	font-size: 25px;
 }
 
 
@@ -60,13 +61,13 @@ a {
 	color: white;
 	text-decoration: none;
 }
-
+/*
 .text-shadow-pop-top {
 		margin-top: 15px;
 	font-family: IntegralCF-Regular;
 	font-style: bold;
 	font-size: 1em;
-} 
+} */
 
 h1 {
 	color: white;
