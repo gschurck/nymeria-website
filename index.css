@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "IntegralCF-Regular";
+    src: url("media/fonts/Beaufort-Light/IntegralCF-Regular.otf");
+}
+
 html {
 	background-color: #11111d;
 }
@@ -49,7 +54,7 @@ a {
 .pages {
 	overflow: hidden;
 	margin-top: 15px;
-	font-family: ;
+	font-family: IntegralCF-Regular;
 	font-style: bold;
 	font-size: 1em;
 }
