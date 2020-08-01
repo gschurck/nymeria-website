@@ -2,19 +2,19 @@ html {
 	background-color: #11111d;
 }
 header {
-	height: 100px;
+	height: 70px;
 	text-align: center;
 	background: #11111d;
 	color: white;
 	font-size: 30px;
 	position: fixed;
 	overflow: hidden;
-	width: 100%;	
+	width: 99%;	
 	top: 0px;	
 	left: 0px;
 	right: 0px;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px; 
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px; 
 	  text-align: center;
   display: flex;
   justify-content: space-around;
@@ -37,15 +37,17 @@ a {
 }
 
 .logo {
-	height: 200px;
-	  position: fixed;
-  top: 100px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	height: 155px;
+	position: fixed;
+	top: 77px;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .pages {
-	margin-top: 30px;
+	overflow: hidden;
+	margin-top: 15px;
 	font-family: Verdana;
 	font-style: bold;
+	font-size: 1em;
 }
