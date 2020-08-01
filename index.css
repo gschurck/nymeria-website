@@ -9,10 +9,12 @@ header {
 	font-size: 30px;
 	position: fixed;
 	overflow: hidden;
-	width: 99%;	
+	width: 100%;	
 	top: 0px;	
-	left: 0px;
-	right: 0px;
+	left: 0;
+	right: 0;
+	    margin-right: auto;
+    margin-left: auto;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px; 
 	  text-align: center;
@@ -31,7 +33,7 @@ a {
 }
 
 .imgheader{
-	width: 100%;
+	width: 100vw;
 	align-items: center;
 	justify-content: center;
 }
@@ -47,7 +49,19 @@ a {
 .pages {
 	overflow: hidden;
 	margin-top: 15px;
-	font-family: Verdana;
+	font-family: ;
 	font-style: bold;
 	font-size: 1em;
+}
+
+h1{
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+	padding-top: 50px;
+}
+
+p {
+	color: white;
+	text-align: center;
 }
