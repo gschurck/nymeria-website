@@ -44,7 +44,7 @@ h2 {
 	z-index: 1;
 		border-radius: 50px;
 	width: 100%;
-	filter: blur(5px) grayscale(20%) brightness(80%);
+	filter: blur(3px) grayscale(20%) brightness(80%);
 }
 
 h3 {
