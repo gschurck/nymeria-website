@@ -14,8 +14,9 @@ h1 {
 	color: white;
 	font-family: IntegralCF-DemiBold;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 50px;
 	font-size: 50px;
+	word-spacing: 5px;
 }
 
 h2 {
@@ -33,7 +34,7 @@ h2 {
 
 .jeu {
 	overflow: hidden;
-	padding-top: 100px;
+	padding-top: 50px;
 	width: 60vw;
 	    margin-left: auto;
     margin-right: auto;
@@ -44,4 +45,23 @@ h2 {
 		border-radius: 50px;
 	width: 100%;
 	filter: blur(5px) grayscale(20%) brightness(80%);
+}
+
+h3 {
+	color: #fbbc31;	
+	font-family: "IntegralCF-Regular";
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+.headerjeux {
+	  text-align: center;
+  display: flex;	
+  justify-content: space-around;
+  /*
+  		width: 90%;
+      transform: skew(-30deg);
+      background: red;
+  */
 }
