@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "IntegralCF-Regular";
+    src: url("media/fonts/IntegralCF-Regular.otf");
+}
+
+@font-face {
+    font-family: "IntegralCF-DemiBold";
+    src: url("media/fonts/IntegralCF-DemiBold.otf");
+}
+
+html {
+	background-color: #11111d;
+}
+header {
+	height: 70px;
+	text-align: center;
+	background: #11111d;
+	color: white;
+	font-size: 30px;
+	position: fixed;
+	overflow: hidden;
+	width: 99%;	
+	top: 0px;	
+	left: 0;
+	right: 0;
+	    margin-right: auto;
+    margin-left: auto;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px; 
+	  text-align: center;
+  display: flex;	
+  justify-content: space-between;	
+  border: solid #fbbc31;
+}
+
+.divheader{
+	display: flex;
+	justify-content: space-around;
+	width: 45%;
+}
+
+.logo {
+	height: 150px;
+	position: fixed;
+	top: 75px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pages {
+
+	margin-top: 15px;
+	font-family: IntegralCF-Regular;
+	font-style: bold;
+	font-size: 1em;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.text-shadow-pop-top {
+		margin-top: 15px;
+	font-family: IntegralCF-Regular;
+	font-style: bold;
+	font-size: 1em;
+} 
+
+h1 {
+	color: white;
+	font-family: IntegralCF-DemiBold;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+}

@@ -1,0 +1,27 @@
+html {
+	background: rgb(17,17,29);
+background: linear-gradient(180deg, rgba(17,17,29,1) 0%, rgba(139,106,39,1) 76%, rgba(186,140,43,1) 100%, rgba(251,188,49,1) 100%);
+}
+
+.spacer {
+	margin-top: 100px;
+}
+
+h1 {
+	color: white;
+	font-family: IntegralCF-DemiBold;
+	text-align: center;
+	padding-top: 70px;
+	font-size: 50px;
+}
+
+h2 {
+	color: #fbbc31;	
+	font-family: "IntegralCF-Regular";
+	font-style: italic;
+	letter-spacing: 3px;
+}
+
+.listejeux {
+	  text-align: center;
+}

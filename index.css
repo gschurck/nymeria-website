@@ -1,52 +1,9 @@
-@font-face {
-    font-family: "IntegralCF-Regular";
-    src: url("media/fonts/IntegralCF-Regular.otf");
-}
 
-@font-face {
-    font-family: "IntegralCF-DemiBold";
-    src: url("media/fonts/IntegralCF-DemiBold.otf");
-}
-
-html {
-	background-color: #11111d;
-}
-header {
-	height: 70px;
-	text-align: center;
-	background: #11111d;
-	color: white;
-	font-size: 30px;
-	position: fixed;
-	overflow: hidden;
-	width: 99%;	
-	top: 0px;	
-	left: 0;
-	right: 0;
-	    margin-right: auto;
-    margin-left: auto;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px; 
-	  text-align: center;
-  display: flex;
-  justify-content: space-between;	
-  border: solid #fbbc31;
-}
-
-.divheader{
-	display: flex;
-	justify-content: space-around;
-	width: 45%;
-}
 
 .test {
 	padding-top: 1000px;
 }
 
-a {
-	color: white;
-	text-decoration: none;
-}
 
 .imgheader{
 	width: 98vw;
@@ -54,42 +11,14 @@ a {
 	justify-content: center;
 }
 
-.logo {
-	height: 150px;
-	position: fixed;
-	top: 75px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
 
-.pages {
-
-	margin-top: 15px;
-	font-family: IntegralCF-Regular;
-	font-style: bold;
-	font-size: 1em;
-}
-
-.text-shadow-pop-top {
-		margin-top: 15px;
-	font-family: IntegralCF-Regular;
-	font-style: bold;
-	font-size: 1em;
-} 
-
-h1 {
-	color: white;
-	font-family: IntegralCF-DemiBold;
-	text-align: center;
-	padding-top: 50px;
-}
 
 p {
 	color: white;
 	text-align: center;
 }
 
-.text-shadow-pop-top:hover{animation:text-shadow-pop-top .6s both}
+/*.text-shadow-pop-top:hover{animation:text-shadow-pop-top .6s both}	
 
 
 /* ----------------------------------------------
@@ -97,6 +26,8 @@ p {
  * Licensed under FreeBSD License.
  * See http://animista.net/license for more info. 
  * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
+ * ---------------------------------------------- 
 
 @keyframes text-shadow-pop-top{0%{text-shadow:0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555,0 0 #555;transform:translateY(0)}100%{text-shadow:0 -1px #555,0 -2px #555,0 -3px #555,0 -4px #555,0 -5px #555,0 -6px #555,0 -7px #555,0 -8px #555;transform:translateY(8px)}}
+
+*/
