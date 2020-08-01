@@ -1,0 +1,51 @@
+html {
+	background-color: #11111d;
+}
+header {
+	height: 100px;
+	text-align: center;
+	background: #11111d;
+	color: white;
+	font-size: 30px;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;	
+	top: 0px;	
+	left: 0px;
+	right: 0px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px; 
+	  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border: solid #fbbc31;
+}
+
+.test {
+	padding-top: 1000px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.imgheader{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	height: 200px;
+	  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pages {
+	margin-top: 30px;
+	font-family: Verdana;
+	font-style: bold;
+}
