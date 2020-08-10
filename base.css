@@ -10,6 +10,7 @@
 
 html {
 	background-color: #11111d;
+	text-align: center;
 }
 header {
 	z-index: 10;
@@ -61,18 +62,11 @@ a {
 	color: white;
 	text-decoration: none;
 }
-/*
-.text-shadow-pop-top {
-		margin-top: 15px;
-	font-family: IntegralCF-Regular;
-	font-style: bold;
-	font-size: 1em;
-} */
 
 h1 {
 	color: white;
 	font-family: IntegralCF-DemiBold;
 	text-align: center;
-	padding-top: 50px;
 	font-size: 50px;
+	margin: 0px;
 }
