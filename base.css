@@ -70,3 +70,12 @@ h1 {
 	font-size: 50px;
 	margin: 0px;
 }
+
+h2 {
+	color: #fbbc31;	
+	font-family: "IntegralCF-Regular";
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 40px;
+
+}
