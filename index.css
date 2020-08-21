@@ -31,6 +31,7 @@ p {
 
 .header {
 	width: 99vw;
+	margin-top:-50px;
 }
 
 .title {
