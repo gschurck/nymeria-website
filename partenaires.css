@@ -1,0 +1,43 @@
+.listepartenaires {
+	display: flex;
+	justify-content: center;
+}
+
+.partenaire {
+	width: 30vw;
+}
+
+.partenaire img {
+	width: 15vw;
+}
+
+h3 {
+	color: white;	
+	font-family: "IntegralCF-Regular";
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+p {
+	font-family: "Greycliff-CF-Medium";
+	font-size: 20px;
+	width: 50px;
+}
+
+.partlogo {
+	width: 50vw;
+}
+
+/*
+.partlogo {
+	min-height: 400px;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+	display: flex;
+	justify-content: center;
+}
