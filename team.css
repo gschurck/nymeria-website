@@ -16,7 +16,7 @@
  .container .card {
 	 flex: 1;
 	 transition: all 1s ease-in-out;
-	 height: 75vh;
+	 height: 70vh;
 	 position: relative;
 }
  .container .card .card__head {
