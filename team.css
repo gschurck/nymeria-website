@@ -11,7 +11,7 @@
 	 margin-right: 10vmin;
 	 margin-bottom: 5vh;
 	 overflow: hidden;
-	 transform: skew(5deg);
+	 transform: skew(-5deg);
 }
  .container .card {
 	 flex: 1;
@@ -33,11 +33,11 @@
 	 left: 0;
 	 font-size: 1em;
 	 white-space: nowrap;
-	 font-family: "IntegralCF-Regular";
+	     font-family: "IntegralCF-Regular";
 
 }
  .container .card:hover {
-	 flex-grow: 10;
+	 flex-grow: 7;
 }
  .container .card:hover img {
 	 filter: grayscale(0);
