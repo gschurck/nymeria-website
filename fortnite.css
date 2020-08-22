@@ -1,0 +1,74 @@
+html {
+	/*
+	background: rgb(17,17,29);
+background: linear-gradient(180deg, rgba(17,17,29,1) 0%, rgba(139,106,39,1) 76%, rgba(186,140,43,1) 100%, rgba(251,188,49,1) 100%);
+*/
+
+}
+
+.spacer {
+	margin-top: 100px;
+}
+
+h1 {
+	color: white;
+	font-family: IntegralCF-DemiBold;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+	word-spacing: 5px;
+}
+
+h2 {
+	color: #fbbc31;	
+	font-family: "IntegralCF-Regular";
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 40px;
+
+}
+h3 {
+	color: #fbbc31;	
+	font-family: "IntegralCF-Regular";
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+.headerjeux {
+	  text-align: center;
+  display: flex;	
+  justify-content: space-around;
+  /*
+  		width: 90%;
+      transform: skew(-30deg);
+      background: red;
+  */
+}
+
+.teamscontainer {
+		  text-align: center;
+  display: flex;	
+  justify-content: space-around;
+}
+
+.teams {
+
+}
+
+.team {
+	display: flex;
+	justify-content: space-around;
+}
+
+.joueur {
+	margin: 50px;
+	overflow: hidden;	
+	width: 40%;
+	height: 15vh;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+}
