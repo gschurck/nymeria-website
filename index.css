@@ -117,3 +117,14 @@ text-align: center;
 	 margin-right: 1em;
 }
  
+
+
+ .icons {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ }
+
+ h2 {
+ 	color: white;
+ }
