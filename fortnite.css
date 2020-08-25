@@ -50,6 +50,7 @@ h3 {
 		  text-align: center;
   display: flex;	
   justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .teams {

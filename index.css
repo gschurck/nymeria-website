@@ -27,13 +27,36 @@ h1{
 p {
 	color: white;
 	text-align: center;
+	width: 50vw;
+}
+
+/* TEST DESIGN
+.headerdiv {
+	height: 80vh;
 }
 
 .header {
 	width: 99vw;
 	margin-top:-50px;
+	position: fixed; 
+left: 0;
+z-index: -1;
 }
 
+.pagecontent {
+	background-color: #11111d;
+}
+
+.textdiv {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+*/
+.header {
+	width: 99vw;
+	margin-top:-50px;
+}
 .title {
 
 	/*background-color: #11111d;*/
@@ -55,21 +78,55 @@ text-align: center;
     justify-content: center;
 }
 
-
-
-
-
+ .presentation {
+	font-size: 30px; 
+	margin-top: 50px;
+	font-family: Raleway;
+	font-weight: bolder;
+}
  
+.discover {
+			  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.discover-container {
+	background-color: #fbbc31;
+	color: #11111d;
+	width: 350px;
+	height: 100px;
+			  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.discover-container:hover {
+	background-color: #11111d;
+	color: #fbbc31;
+	border: solid #fbbc31;
+	box-sizing: border-box;
+}
+
 .icons {
 	margin-top: 50px;
 		display: flex;
 	justify-content: space-around;
+		margin-bottom: 100px;
 }
 
- .icon {
+svg {
+	height: 60px;
+	width: 60px;
+}
 
-
- }
 
  h2 {
  	color: white;

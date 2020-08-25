@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
 @font-face {
     font-family: "IntegralCF-Regular";
     src: url("media/fonts/IntegralCF-Regular.otf");
@@ -71,8 +73,12 @@ header {
 	font-family: IntegralCF-Regular;
 	font-style: bold;
 	font-size: 25px;
+	transition: color 0.5s;
 }
 
+.pages:hover {
+	color: #fbbc31;
+}
 
 a {
 	color: white;
@@ -113,3 +119,19 @@ p {
 	font-family: Arial;
 	font-size: 20px;
 }
+
+h4 {
+	letter-spacing: 1px;
+}
+/*
+.wrapper {
+ height: 400px;
+  width: 1000px;
+  filter: blur(5px);
+}
+
+.recrute {
+	height: 50%;
+	width: 50vw;
+
+}*/
