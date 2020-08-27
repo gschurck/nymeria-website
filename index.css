@@ -116,10 +116,14 @@ text-align: center;
 }
 
 .icons {
-	margin-top: 50px;
-		display: flex;
-	justify-content: space-around;
-		margin-bottom: 100px;
+	margin-top: 200px;
+		/*display: flex;
+	justify-content: space-around;*/
+		margin-bottom: 50px;
+}
+
+.icon {
+		margin: 100px;
 }
 
 svg {
