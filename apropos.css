@@ -19,13 +19,13 @@ p{
 }
 
 .p2 {
-	-webkit-animation: text-focus-in 1s 5s ease both;
-	        animation: text-focus-in 1s 5s ease both;
+	-webkit-animation: text-focus-in 1s 4s ease both;
+	        animation: text-focus-in 1s 4s ease both;
 }
 
 .p3 {
-	-webkit-animation: text-focus-in 1s 10s ease both;
-	        animation: text-focus-in 1s 10s ease both;
+	-webkit-animation: text-focus-in 1s 8s ease both;
+	        animation: text-focus-in 1s 8s ease both;
 }
 
 /* ----------------------------------------------
