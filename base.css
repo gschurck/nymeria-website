@@ -135,3 +135,24 @@ h4 {
 	width: 50vw;
 
 }*/
+
+
+@media only screen and (max-width: 710px) {
+	a.pages {
+		font-size: 10px;
+		height: 20px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 15px;
+	}
+	.divheader {
+		display: block;
+	
+	}
+}

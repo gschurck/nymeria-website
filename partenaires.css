@@ -107,3 +107,9 @@ hr {
 p {
 	font-size: 25px;
 }
+
+@media only screen and (max-width: 710px) {
+	p {
+		font-size: 20px;
+	}
+}
