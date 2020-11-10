@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 	<title>Nymeria Esport</title>
 	<link rel="stylesheet" type="text/css" href="base.css">
@@ -9,57 +10,120 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176063459-3"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	gtag('config', 'UA-176063459-3');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-176063459-3');
 	</script>
 
 
 </head>
 
+<script>
+function displayMenu() {
+					document.getElementById("menu2").style.display = "block";
+					document.getElementById("menu1").style.display = "none";
+					document.getElementById("head").style.display = "block";
+			}
+
+			function closeMenu() {
+					document.getElementById("menu1").style.display = "block";
+					document.getElementById("menu2").style.display = "none";
+					document.getElementById("head").style.display = "none";
+			}
+</script>
+
 <body>
-	<header>
-			<div class="divheader">
-				<a class="pages" href="index.html">Accueil</a>
-				<a class="pages" href="team.html">Equipes</a>
-				<a class="pages" href="staff.html">Staff</a>
-			</div>
+	<div class="topbar">
+	<img onclick="displayMenu()" id="menu1" class="menu-logo" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZiYmMzMSI+PHBhdGggZD0iTTAsMTQuMzMzMzN2MTQuMzMzMzNoMTcydi0xNC4zMzMzM3pNMCw3OC44MzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzek0wLDE0My4zMzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/>
+	<img onclick="closeMenu()" id="menu2" class="menu-logo" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZiYmMzMSI+PHBhdGggZD0iTTAsMTQuMzMzMzN2MTQuMzMzMzNoMTcydi0xNC4zMzMzM3pNMCw3OC44MzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzek0wLDE0My4zMzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/>			Nymeria Esport
 
-			<div class="divheader">
-				<a class="pages" href="partenaires.html	">Partenaires</a>
-				<a class="pages" href="boutique.html">Boutique</a>
-				<a class="pages" href="apropos.html">A propos</a>
-			</div>		
+</div>
 
+	<header id="head">
+		<div class="divheader">
+			<a class="pages" href="index.html">Accueil</a>
+			<a class="pages" href="team.html">Equipes</a>
+			<a class="pages" href="staff.html">Staff</a>
+		</div>
+
+		<div class="divheader">
+			<a class="pages" href="partenaires.html	">Partenaires</a>
+			<a class="pages" href="boutique.html">Boutique</a>
+			<a class="pages" href="apropos.html">A propos</a>
+		</div>
+
+		<div class="mobile-menu">
+			<a class="pages" href="index.html">Accueil</a>
+			<hr>
+			<a class="pages" href="team.html">Equipes</a>
+			<hr>
+			<a class="pages" href="staff.html">Staff</a>
+			<hr>
+			<a class="pages" href="partenaires.html	">Partenaires</a>
+			<hr>
+			<a class="pages" href="boutique.html">Boutique</a>
+			<hr>
+			<a class="pages" href="apropos.html">A propos</a>
+		</div>
 	</header>
-		<div class="logodiv">
-			<a href="index.html">
-				<div>
-					<img  class="logo"src="media/circle_logo.png">
-				</div>
-			</a>
-		</div>	
-		<div class="headerdiv">
-			<img class="header" src="media/Header.png">
-		</div>
-		<div class="pagecontent">
-	<hr>
-		<div class="presentation">
-		Nymeria est une structure associative sous loi 1901 cherchant à évoluer dans le monde de l'esport sur le long terme.
+	<div class="logodiv">
+		<a href="index.html">
+			<div>
+				<img class="logo" src="media/circle_logo.png">
+			</div>
+		</a>
 	</div>
-	<a href="team.html">
-	<div class="discover-container">
-		<div class="discover">
-			Découvrir nos équipes
-			<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="64" height="64"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M117.84688,78.34063h-74.44375c-20.29062,0 -36.68437,16.39375 -36.68437,36.68437c0,20.29062 16.39375,36.68438 36.68437,36.68438c11.95938,0 22.575,-5.77812 29.29375,-14.64688h15.85625c6.71875,8.86875 17.33438,14.64688 29.29375,14.64688c20.29063,0 36.68437,-16.39375 36.68437,-36.68438c0,-20.29062 -16.39375,-36.68437 -36.68437,-36.68437z" fill="#11111d"></path><path d="M125.90938,160.30937c-12.22812,0 -23.51562,-5.375 -31.30937,-14.64687h-11.95937c-7.79375,9.40625 -19.08125,14.64687 -31.30938,14.64687c-22.30625,0 -40.58125,-18.275 -40.58125,-40.71562c0,-22.44062 18.275,-40.71563 40.71562,-40.71563h74.57813c22.44062,0 40.71563,18.275 40.71563,40.71563c0,22.44063 -18.40938,40.71562 -40.85,40.71562z" fill="#6e6e8e"></path><path d="M117.84688,78.34063h-74.44375c-20.29062,0 -36.68437,16.39375 -36.68437,36.68437c0,20.29062 16.39375,36.68438 36.68437,36.68438c11.95938,0 22.575,-5.77812 29.29375,-14.64688h15.85625c6.71875,8.86875 17.33438,14.64688 29.29375,14.64688c20.29063,0 36.68437,-16.39375 36.68437,-36.68438c0,-20.29062 -16.39375,-36.68437 -36.68437,-36.68437z" fill="#11111d"></path><path d="M43.40313,156.27812c-11.01875,0 -21.36562,-4.43437 -29.15937,-12.3625c-7.65937,-7.92813 -11.825,-18.40938 -11.55625,-29.5625c0.5375,-21.76875 19.21563,-39.50625 41.3875,-39.50625h16.39375c2.28438,0 4.03125,1.74687 4.03125,4.03125c0,2.28437 -1.74687,4.03125 -4.03125,4.03125h-16.39375c-17.87187,0 -32.7875,14.24375 -33.325,31.7125c-0.26875,8.86875 3.09063,17.33438 9.27188,23.65c6.18125,6.31563 14.5125,9.80938 23.38125,9.80938c10.34688,0 19.8875,-4.70312 26.06875,-13.03438c0.80625,-1.075 2.01563,-1.6125 3.225,-1.6125h15.85625c1.20938,0 2.41875,0.5375 3.225,1.6125c6.85312,9.1375 17.7375,13.975 29.15937,12.9c15.31875,-1.47813 27.54688,-13.4375 29.29375,-28.75625c1.075,-9.40625 -1.88125,-18.54375 -8.0625,-25.53125c-6.18125,-6.85312 -15.05,-10.88438 -24.32188,-10.88438h-33.19062c-4.43438,0 -8.0625,-3.62812 -8.0625,-8.0625v-9.40625c0,-5.24062 -4.16563,-9.40625 -9.40625,-9.40625h-26.875c-9.675,0 -17.46875,-7.79375 -17.46875,-17.46875c0,-9.675 7.79375,-17.46875 17.46875,-17.46875h67.1875c5.24063,0 9.40625,-4.16563 9.40625,-9.40625c0,-2.28438 1.74688,-4.03125 4.03125,-4.03125c2.28437,0 4.03125,1.74687 4.03125,4.03125c0,9.675 -7.79375,17.46875 -17.46875,17.46875h-67.1875c-5.24063,0 -9.40625,4.16562 -9.40625,9.40625c0,5.24062 4.16562,9.40625 9.40625,9.40625h26.875c9.675,0 17.46875,7.79375 17.46875,17.46875v9.40625h33.19062c11.55625,0 22.575,4.97188 30.36875,13.57188c7.65938,8.6 11.42188,20.15625 10.07813,31.7125c-2.15,19.08125 -17.46875,34.13125 -36.55,35.87812c-13.57187,1.20938 -26.47187,-4.16562 -35.07188,-14.5125h-11.95937c-7.79375,9.54063 -19.08125,14.91563 -31.30938,14.91563z" fill="#444b54"></path><path d="M52.94375,112.20313h-6.58438v-6.58438h-6.71875v6.58438h-6.58438v6.71875h6.58438v6.58438h6.71875v-6.58438h6.58438zM105.21563,110.725c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM117.30938,98.63125c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM130.74687,112.06875c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM118.65313,124.1625c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125z" fill="#fbbc31"></path><path d="M74.04063,117.44375c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM86.13438,117.44375c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125z" fill="#444b54"></path></g></g></svg>
+	<div class="headerdiv">
+		<img class="header" src="media/Header.png">
+	</div>
+	<div class="pagecontent">
+		<hr>
+		<div class="presentation">
+			Nymeria est une structure associative sous loi 1901 cherchant à évoluer dans le monde de l'esport sur le
+			long terme.
 		</div>
-	</div></a>
-	<!--
+		<a href="team.html">
+			<div class="discover-container">
+				<div class="discover">
+					Découvrir nos équipes
+					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172"
+						style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g>
+								<path
+									d="M117.84688,78.34063h-74.44375c-20.29062,0 -36.68437,16.39375 -36.68437,36.68437c0,20.29062 16.39375,36.68438 36.68437,36.68438c11.95938,0 22.575,-5.77812 29.29375,-14.64688h15.85625c6.71875,8.86875 17.33438,14.64688 29.29375,14.64688c20.29063,0 36.68437,-16.39375 36.68437,-36.68438c0,-20.29062 -16.39375,-36.68437 -36.68437,-36.68437z"
+									fill="#11111d"></path>
+								<path
+									d="M125.90938,160.30937c-12.22812,0 -23.51562,-5.375 -31.30937,-14.64687h-11.95937c-7.79375,9.40625 -19.08125,14.64687 -31.30938,14.64687c-22.30625,0 -40.58125,-18.275 -40.58125,-40.71562c0,-22.44062 18.275,-40.71563 40.71562,-40.71563h74.57813c22.44062,0 40.71563,18.275 40.71563,40.71563c0,22.44063 -18.40938,40.71562 -40.85,40.71562z"
+									fill="#6e6e8e"></path>
+								<path
+									d="M117.84688,78.34063h-74.44375c-20.29062,0 -36.68437,16.39375 -36.68437,36.68437c0,20.29062 16.39375,36.68438 36.68437,36.68438c11.95938,0 22.575,-5.77812 29.29375,-14.64688h15.85625c6.71875,8.86875 17.33438,14.64688 29.29375,14.64688c20.29063,0 36.68437,-16.39375 36.68437,-36.68438c0,-20.29062 -16.39375,-36.68437 -36.68437,-36.68437z"
+									fill="#11111d"></path>
+								<path
+									d="M43.40313,156.27812c-11.01875,0 -21.36562,-4.43437 -29.15937,-12.3625c-7.65937,-7.92813 -11.825,-18.40938 -11.55625,-29.5625c0.5375,-21.76875 19.21563,-39.50625 41.3875,-39.50625h16.39375c2.28438,0 4.03125,1.74687 4.03125,4.03125c0,2.28437 -1.74687,4.03125 -4.03125,4.03125h-16.39375c-17.87187,0 -32.7875,14.24375 -33.325,31.7125c-0.26875,8.86875 3.09063,17.33438 9.27188,23.65c6.18125,6.31563 14.5125,9.80938 23.38125,9.80938c10.34688,0 19.8875,-4.70312 26.06875,-13.03438c0.80625,-1.075 2.01563,-1.6125 3.225,-1.6125h15.85625c1.20938,0 2.41875,0.5375 3.225,1.6125c6.85312,9.1375 17.7375,13.975 29.15937,12.9c15.31875,-1.47813 27.54688,-13.4375 29.29375,-28.75625c1.075,-9.40625 -1.88125,-18.54375 -8.0625,-25.53125c-6.18125,-6.85312 -15.05,-10.88438 -24.32188,-10.88438h-33.19062c-4.43438,0 -8.0625,-3.62812 -8.0625,-8.0625v-9.40625c0,-5.24062 -4.16563,-9.40625 -9.40625,-9.40625h-26.875c-9.675,0 -17.46875,-7.79375 -17.46875,-17.46875c0,-9.675 7.79375,-17.46875 17.46875,-17.46875h67.1875c5.24063,0 9.40625,-4.16563 9.40625,-9.40625c0,-2.28438 1.74688,-4.03125 4.03125,-4.03125c2.28437,0 4.03125,1.74687 4.03125,4.03125c0,9.675 -7.79375,17.46875 -17.46875,17.46875h-67.1875c-5.24063,0 -9.40625,4.16562 -9.40625,9.40625c0,5.24062 4.16562,9.40625 9.40625,9.40625h26.875c9.675,0 17.46875,7.79375 17.46875,17.46875v9.40625h33.19062c11.55625,0 22.575,4.97188 30.36875,13.57188c7.65938,8.6 11.42188,20.15625 10.07813,31.7125c-2.15,19.08125 -17.46875,34.13125 -36.55,35.87812c-13.57187,1.20938 -26.47187,-4.16562 -35.07188,-14.5125h-11.95937c-7.79375,9.54063 -19.08125,14.91563 -31.30938,14.91563z"
+									fill="#444b54"></path>
+								<path
+									d="M52.94375,112.20313h-6.58438v-6.58438h-6.71875v6.58438h-6.58438v6.71875h6.58438v6.58438h6.71875v-6.58438h6.58438zM105.21563,110.725c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM117.30938,98.63125c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM130.74687,112.06875c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM118.65313,124.1625c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125z"
+									fill="#fbbc31"></path>
+								<path
+									d="M74.04063,117.44375c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125zM86.13438,117.44375c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125z"
+									fill="#444b54"></path>
+							</g>
+						</g>
+					</svg>
+				</div>
+			</div>
+		</a>
+		<!--
 	<div class="textdiv">
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus volutpat sem, id facilisis sem maximus vitae. Pellentesque sollicitudin elementum orci, porttitor interdum dui finibus a. Donec a purus sed metus dignissim pharetra eu eget libero. Nunc placerat varius nulla sit amet suscipit. Etiam id urna neque. Sed nec odio a velit tempus posuere. Nulla tincidunt urna eu pharetra porttitor. Aenean blandit risus non finibus scelerisque. Proin vitae mauris malesuada, condimentum ante eget, molestie velit. Vestibulum at viverra mauris. Donec sed elit odio. Proin pharetra eget dolor vel porttitor.
@@ -72,33 +136,74 @@ Nullam id nulla non ex placerat euismod eget ac orci. Fusce id tempor metus, vit
 
 Curabitur diam eros, efficitur at suscipit quis, convallis vitae lectus. Cras elementum ex ac mi facilisis mattis. Proin eget consequat ligula. Nunc vitae lacus vel ante tincidunt fringilla vitae eget mauris. Etiam at mi et metus iaculis sodales vel et libero. Nunc sit amet fringilla magna, non iaculis ligula. Donec convallis aliquam elit nec gravida. Nunc eu eros facilisis, viverra sapien id, convallis lectus. Sed mattis sit amet sem quis gravida. Phasellus mi risus, blandit et nunc eu, feugiat consectetur risus. Praesent et cursus libero. In egestas sapien elit, vel euismod quam blandit et. Aenean sed egestas neque. Nulla facilisi. Nam vel mollis risus. Vestibulum sit amet posuere nisi.
 	</p></div>-->
-	<div class="resaux">
-		<div class="icons">
-<a class="icon" href="https://twitter.com/NymeriaEsport">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="96" height="96"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#fbbc31"><path d="M157.66667,28.6595c-5.59,3.31817 -16.80583,7.84033 -23.39917,9.14467c-0.1935,0.05017 -0.35117,0.11467 -0.5375,0.16483c-5.8265,-5.74767 -13.81017,-9.3095 -22.64667,-9.3095c-17.80917,0 -32.25,14.44083 -32.25,32.25c0,0.93883 -0.07883,2.666 0,3.58333c-24.02983,0 -42.31917,-12.58467 -55.43417,-28.66667c-1.42617,3.58333 -2.04967,9.245 -2.04967,14.56267c0,10.0405 7.8475,19.90183 20.06667,26.015c-2.25033,0.5805 -4.73,0.99617 -7.31,0.99617c-4.16383,0 -8.57133,-1.0965 -12.60617,-4.42183c0,0.12183 0,0.2365 0,0.3655c0,14.03233 14.89233,23.5855 28.13633,26.24433c-2.6875,1.58383 -8.1055,1.7415 -10.75,1.7415c-1.86333,0 -8.45667,-0.85283 -10.21967,-1.1825c3.68367,11.5025 16.97067,17.96683 29.63417,18.19617c-9.90433,7.76867 -16.77717,10.64967 -37.05883,10.64967h-6.90867c12.814,8.213 29.1325,14.3405 45.48683,14.3405c53.24833,0 83.51317,-40.58483 83.51317,-78.8405c0,-0.61633 -0.01433,-1.90633 -0.03583,-3.2035c0,-0.129 0.03583,-0.25083 0.03583,-0.37983c0,-0.1935 -0.05733,-0.37983 -0.05733,-0.57333c-0.0215,-0.97467 -0.043,-1.88483 -0.0645,-2.35783c5.66167,-4.085 10.57083,-9.1805 14.45517,-14.9855c-5.19583,2.30767 -10.7715,3.85567 -16.62667,4.558c5.977,-3.58333 14.4695,-12.126 16.62667,-18.89133z"></path></g></g></svg></a>
+		<div class="resaux">
+			<div class="icons">
+				<a class="icon" href="https://twitter.com/NymeriaEsport">
+					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 172 172"
+						style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g id="original-icon" fill="#fbbc31">
+								<path
+									d="M157.66667,28.6595c-5.59,3.31817 -16.80583,7.84033 -23.39917,9.14467c-0.1935,0.05017 -0.35117,0.11467 -0.5375,0.16483c-5.8265,-5.74767 -13.81017,-9.3095 -22.64667,-9.3095c-17.80917,0 -32.25,14.44083 -32.25,32.25c0,0.93883 -0.07883,2.666 0,3.58333c-24.02983,0 -42.31917,-12.58467 -55.43417,-28.66667c-1.42617,3.58333 -2.04967,9.245 -2.04967,14.56267c0,10.0405 7.8475,19.90183 20.06667,26.015c-2.25033,0.5805 -4.73,0.99617 -7.31,0.99617c-4.16383,0 -8.57133,-1.0965 -12.60617,-4.42183c0,0.12183 0,0.2365 0,0.3655c0,14.03233 14.89233,23.5855 28.13633,26.24433c-2.6875,1.58383 -8.1055,1.7415 -10.75,1.7415c-1.86333,0 -8.45667,-0.85283 -10.21967,-1.1825c3.68367,11.5025 16.97067,17.96683 29.63417,18.19617c-9.90433,7.76867 -16.77717,10.64967 -37.05883,10.64967h-6.90867c12.814,8.213 29.1325,14.3405 45.48683,14.3405c53.24833,0 83.51317,-40.58483 83.51317,-78.8405c0,-0.61633 -0.01433,-1.90633 -0.03583,-3.2035c0,-0.129 0.03583,-0.25083 0.03583,-0.37983c0,-0.1935 -0.05733,-0.37983 -0.05733,-0.57333c-0.0215,-0.97467 -0.043,-1.88483 -0.0645,-2.35783c5.66167,-4.085 10.57083,-9.1805 14.45517,-14.9855c-5.19583,2.30767 -10.7715,3.85567 -16.62667,4.558c5.977,-3.58333 14.4695,-12.126 16.62667,-18.89133z">
+								</path>
+							</g>
+						</g>
+					</svg></a>
 
-<a class="icon" href="https://discord.gg/j3HPfap">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="96" height="96"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#fbbc31"><path d="M142.98933,40.64933c-13.64533,-10.97217 -35.23133,-12.82833 -36.14867,-12.90717c-1.4405,-0.12183 -2.80933,0.69517 -3.397,2.01383c-0.043,0.086 -0.516,1.16817 -1.03917,2.85233c9.02283,1.51933 20.10967,4.58667 30.143,10.8145c1.60533,0.99617 2.09983,3.11033 1.10367,4.72283c-0.645,1.04633 -1.77017,1.61967 -2.91683,1.61967c-0.61633,0 -1.23983,-0.16483 -1.806,-0.516c-17.243,-10.69267 -38.786,-11.23017 -42.92833,-11.23017c-4.14233,0 -25.6925,0.5375 -42.92117,11.23017c-1.6125,1.00333 -3.7195,0.50167 -4.72283,-1.10367c-1.00333,-1.6125 -0.50167,-3.7195 1.10367,-4.72283c10.03333,-6.22067 21.113,-9.29517 30.143,-10.8145c-0.53033,-1.69133 -1.00333,-2.76633 -1.03917,-2.85233c-0.59483,-1.31867 -1.9565,-2.15 -3.40417,-2.00667c-0.91017,0.07167 -22.49617,1.92783 -36.32783,13.05767c-7.224,6.67217 -21.66483,45.71617 -21.66483,79.47117c0,0.59483 0.15767,1.1825 0.4515,1.6985c9.96883,17.50817 37.15917,22.09483 43.35833,22.2955c0.03583,0 0.07167,0 0.1075,0c1.0965,0 2.1285,-0.52317 2.7735,-1.41183l6.27083,-8.61433c-16.90617,-4.37167 -25.542,-11.78917 -26.04367,-12.22633c-1.419,-1.25417 -1.55517,-3.4185 -0.301,-4.8375c1.25417,-1.419 3.41133,-1.55517 4.83033,-0.30817c0.20783,0.18633 16.11067,13.68117 47.386,13.68117c31.33267,0 47.2355,-13.55217 47.39317,-13.68833c1.419,-1.23267 3.58333,-1.10367 4.83033,0.3225c1.247,1.419 1.11083,3.57617 -0.301,4.82317c-0.50167,0.44433 -9.1375,7.85467 -26.04367,12.22633l6.27083,8.61433c0.645,0.88867 1.677,1.41183 2.7735,1.41183c0.03583,0 0.07167,0 0.1075,0c6.19917,-0.1935 33.3895,-4.78017 43.35833,-22.2955c0.28667,-0.516 0.44433,-1.0965 0.44433,-1.69133c0,-33.755 -14.44083,-72.799 -21.844,-79.62883zM63.71883,106.56833c-6.622,0 -11.997,-6.14183 -11.997,-13.70983c0,-7.568 5.36783,-13.70983 11.997,-13.70983c6.62917,0 11.997,6.14183 11.997,13.70983c0,7.568 -5.36783,13.70983 -11.997,13.70983zM108.28117,106.56833c-6.622,0 -11.997,-6.14183 -11.997,-13.70983c0,-7.568 5.36783,-13.70983 11.997,-13.70983c6.622,0 11.997,6.14183 11.997,13.70983c0,7.568 -5.375,13.70983 -11.997,13.70983z"></path></g></g></svg></a>
+				<a class="icon" href="https://discord.gg/j3HPfap">
+					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 172 172"
+						style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g fill="#fbbc31">
+								<path
+									d="M142.98933,40.64933c-13.64533,-10.97217 -35.23133,-12.82833 -36.14867,-12.90717c-1.4405,-0.12183 -2.80933,0.69517 -3.397,2.01383c-0.043,0.086 -0.516,1.16817 -1.03917,2.85233c9.02283,1.51933 20.10967,4.58667 30.143,10.8145c1.60533,0.99617 2.09983,3.11033 1.10367,4.72283c-0.645,1.04633 -1.77017,1.61967 -2.91683,1.61967c-0.61633,0 -1.23983,-0.16483 -1.806,-0.516c-17.243,-10.69267 -38.786,-11.23017 -42.92833,-11.23017c-4.14233,0 -25.6925,0.5375 -42.92117,11.23017c-1.6125,1.00333 -3.7195,0.50167 -4.72283,-1.10367c-1.00333,-1.6125 -0.50167,-3.7195 1.10367,-4.72283c10.03333,-6.22067 21.113,-9.29517 30.143,-10.8145c-0.53033,-1.69133 -1.00333,-2.76633 -1.03917,-2.85233c-0.59483,-1.31867 -1.9565,-2.15 -3.40417,-2.00667c-0.91017,0.07167 -22.49617,1.92783 -36.32783,13.05767c-7.224,6.67217 -21.66483,45.71617 -21.66483,79.47117c0,0.59483 0.15767,1.1825 0.4515,1.6985c9.96883,17.50817 37.15917,22.09483 43.35833,22.2955c0.03583,0 0.07167,0 0.1075,0c1.0965,0 2.1285,-0.52317 2.7735,-1.41183l6.27083,-8.61433c-16.90617,-4.37167 -25.542,-11.78917 -26.04367,-12.22633c-1.419,-1.25417 -1.55517,-3.4185 -0.301,-4.8375c1.25417,-1.419 3.41133,-1.55517 4.83033,-0.30817c0.20783,0.18633 16.11067,13.68117 47.386,13.68117c31.33267,0 47.2355,-13.55217 47.39317,-13.68833c1.419,-1.23267 3.58333,-1.10367 4.83033,0.3225c1.247,1.419 1.11083,3.57617 -0.301,4.82317c-0.50167,0.44433 -9.1375,7.85467 -26.04367,12.22633l6.27083,8.61433c0.645,0.88867 1.677,1.41183 2.7735,1.41183c0.03583,0 0.07167,0 0.1075,0c6.19917,-0.1935 33.3895,-4.78017 43.35833,-22.2955c0.28667,-0.516 0.44433,-1.0965 0.44433,-1.69133c0,-33.755 -14.44083,-72.799 -21.844,-79.62883zM63.71883,106.56833c-6.622,0 -11.997,-6.14183 -11.997,-13.70983c0,-7.568 5.36783,-13.70983 11.997,-13.70983c6.62917,0 11.997,6.14183 11.997,13.70983c0,7.568 -5.36783,13.70983 -11.997,13.70983zM108.28117,106.56833c-6.622,0 -11.997,-6.14183 -11.997,-13.70983c0,-7.568 5.36783,-13.70983 11.997,-13.70983c6.622,0 11.997,6.14183 11.997,13.70983c0,7.568 -5.375,13.70983 -11.997,13.70983z">
+								</path>
+							</g>
+						</g>
+					</svg></a>
 
-<a class="icon" href="https://www.youtube.com/channel/UCYsKNlUCEu6HrKp5RfYCaiw">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="96" height="96"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#fbbc31"><path d="M154.45063,49.88c-1.37063,-7.56531 -7.90125,-13.07469 -15.48,-14.79469c-11.34125,-2.40531 -32.33063,-4.12531 -55.04,-4.12531c-22.69594,0 -44.02125,1.72 -55.37594,4.12531c-7.56531,1.72 -14.10937,6.88 -15.48,14.79469c-1.38406,8.6 -2.75469,20.64 -2.75469,36.12c0,15.48 1.37063,27.52 3.09063,36.12c1.38406,7.56531 7.91469,13.07469 15.48,14.79469c12.04,2.40531 32.68,4.12531 55.38937,4.12531c22.70938,0 43.34938,-1.72 55.38938,-4.12531c7.56531,-1.72 14.09594,-6.88 15.48,-14.79469c1.37062,-8.6 3.09062,-20.98937 3.44,-36.12c-0.69875,-15.48 -2.41875,-27.52 -4.13875,-36.12zM65.36,110.08v-48.16l41.96531,24.08z"></path></g></g></svg></a>
+				<a class="icon" href="https://www.youtube.com/channel/UCYsKNlUCEu6HrKp5RfYCaiw">
+					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 172 172"
+						style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g id="original-icon" fill="#fbbc31">
+								<path
+									d="M154.45063,49.88c-1.37063,-7.56531 -7.90125,-13.07469 -15.48,-14.79469c-11.34125,-2.40531 -32.33063,-4.12531 -55.04,-4.12531c-22.69594,0 -44.02125,1.72 -55.37594,4.12531c-7.56531,1.72 -14.10937,6.88 -15.48,14.79469c-1.38406,8.6 -2.75469,20.64 -2.75469,36.12c0,15.48 1.37063,27.52 3.09063,36.12c1.38406,7.56531 7.91469,13.07469 15.48,14.79469c12.04,2.40531 32.68,4.12531 55.38937,4.12531c22.70938,0 43.34938,-1.72 55.38938,-4.12531c7.56531,-1.72 14.09594,-6.88 15.48,-14.79469c1.37062,-8.6 3.09062,-20.98937 3.44,-36.12c-0.69875,-15.48 -2.41875,-27.52 -4.13875,-36.12zM65.36,110.08v-48.16l41.96531,24.08z">
+								</path>
+							</g>
+						</g>
+					</svg></a>
 
-<a class="icon" href="https://www.twitch.tv/NymeriaEsport">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="96" height="96"
-viewBox="0 0 172 172"
-style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#fbbc31"><path d="M38.43685,14.33333l-24.10352,33.22982v95.77018h35.83333v21.5h21.5l21.5,-21.5h28.66667l35.83333,-35.83333v-93.16667zM43,28.66667h100.33333v64.5l-21.5,21.5h-35.83333l-21.5,21.5v-21.5h-21.5zM78.83333,50.16667v35.83333h14.33333v-35.83333zM114.66667,50.16667v35.83333h14.33333v-35.83333z"></path></g></g></svg></a>
+				<a class="icon" href="https://www.twitch.tv/NymeriaEsport">
+					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 172 172"
+						style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g fill="#fbbc31">
+								<path
+									d="M38.43685,14.33333l-24.10352,33.22982v95.77018h35.83333v21.5h21.5l21.5,-21.5h28.66667l35.83333,-35.83333v-93.16667zM43,28.66667h100.33333v64.5l-21.5,21.5h-35.83333l-21.5,21.5v-21.5h-21.5zM78.83333,50.16667v35.83333h14.33333v-35.83333zM114.66667,50.16667v35.83333h14.33333v-35.83333z">
+								</path>
+							</g>
+						</g>
+					</svg></a>
+			</div>
 		</div>
 	</div>
-	</div>
 </body>
+
 </html>

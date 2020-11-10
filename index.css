@@ -1,8 +1,8 @@
 html {
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center top 0px; 
-		background-color: #11111d;
+	background-position: center top 0px;
+	background-color: #11111d;
 
 }
 
@@ -11,13 +11,13 @@ html {
 }
 
 
-.imgheader{
+.imgheader {
 	width: 98vw;
 	align-items: center;
 	justify-content: center;
 }
 
-h1{
+h1 {
 	font-size: 150px;
 	letter-spacing: 10px;
 	/*display:inline;*/
@@ -55,12 +55,13 @@ z-index: -1;
 */
 .header {
 	width: 99vw;
-	margin-top:-50px;
+	margin-top: -50px;
 }
+
 .title {
 
 	/*background-color: #11111d;*/
-	  text-align: center;
+	text-align: center;
 }
 
 .titre {
@@ -68,28 +69,28 @@ z-index: -1;
 	height: 250px;
 
 	margin-top: 430px;
-	background-color: rgb(17,16,29);
-text-align: center;
+	background-color: rgb(17, 16, 29);
+	text-align: center;
 }
 
 .page {
-	    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
- .presentation {
-	font-size: 30px; 
+.presentation {
+	font-size: 30px;
 	margin-top: 50px;
 	font-family: Raleway;
 	font-weight: bolder;
 }
- 
+
 .discover {
-			  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
 }
 
 .discover-container {
@@ -97,15 +98,15 @@ text-align: center;
 	color: #11111d;
 	width: 350px;
 	height: 100px;
-			  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
 
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  transition: background-color 0.3s, color 0.3s;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .discover-container:hover {
@@ -117,13 +118,13 @@ text-align: center;
 
 .icons {
 	margin-top: 200px;
-		/*display: flex;
+	/*display: flex;
 	justify-content: space-around;*/
-		margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .icon {
-		margin: 100px;
+	margin: 100px;
 }
 
 svg {
@@ -132,15 +133,45 @@ svg {
 }
 
 
- h2 {
- 	color: white;
- }
+h2 {
+	color: white;
+}
+
+@media only screen and (max-width: 710px) {
+
+	.icons {
+		margin: 0 auto;
+		width: 240px;
+		margin-top: 100px;
+		display: flex;
+		overflow: hidden;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.icon {
+		margin: 0;
+	}
+}
 
 
+/*
+@media only screen and (max-width: 710px) {
+	.header {
+		width: 500px;
+	}
+
+	img.header {
+		height: 400px;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+*/
 
 
-
- /*
+/*
 
 
 

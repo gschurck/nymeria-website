@@ -50,7 +50,7 @@ p {
 }
 
 h3 {
-	color: white;	
+	color: white;
 	font-family: "IntegralCF-Regular";
 	font-style: italic;
 	letter-spacing: 2px;
@@ -64,15 +64,11 @@ h3 {
 
 .partlogo {
 	min-height: 20vh;
-		  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-hr {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
 
 
 .text-container {
@@ -80,16 +76,16 @@ hr {
 }
 
 .description {
-		  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .promo-code {
-			  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
 }
 
 .promo-container {
@@ -97,11 +93,11 @@ hr {
 	color: #11111d;
 	width: 250px;
 	height: 50px;
-			  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	border-radius: 5px;
 }
 
 p {
@@ -111,5 +107,15 @@ p {
 @media only screen and (max-width: 710px) {
 	p {
 		font-size: 20px;
+	}
+
+
+}
+
+@media only screen and (min-width: 710px) {
+
+	hr {
+		margin-top: 100px;
+		margin-bottom: 100px;
 	}
 }

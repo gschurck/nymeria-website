@@ -3,33 +3,58 @@
 <head>
 	<title>Boutique</title>
 		<link rel="stylesheet" type="text/css" href="base.css">
+		<link rel="stylesheet" type="text/css" href="comingsoon.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<style type="text/css">
-	html{
-		background-image: url("media/esport.jpg");
-		background-repeat: no-repeat;	
-		background-size: 100%;
-	}
-	h1 {
-		margin-top: 500px;
-		font-size: 150px;
-	}
-</style>
-<body>	
-	<header>
+<script>
+	function displayMenu() {
+						document.getElementById("menu2").style.display = "block";
+						document.getElementById("menu1").style.display = "none";
+						document.getElementById("head").style.display = "block";
+				}
+	
+				function closeMenu() {
+						document.getElementById("menu1").style.display = "block";
+						document.getElementById("menu2").style.display = "none";
+						document.getElementById("head").style.display = "none";
+				}
+	</script>
+	
+	<body>
+		<div class="topbar">
+		<img onclick="displayMenu()" id="menu1" class="menu-logo" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZiYmMzMSI+PHBhdGggZD0iTTAsMTQuMzMzMzN2MTQuMzMzMzNoMTcydi0xNC4zMzMzM3pNMCw3OC44MzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzek0wLDE0My4zMzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/>
+		<img onclick="closeMenu()" id="menu2" class="menu-logo" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZiYmMzMSI+PHBhdGggZD0iTTAsMTQuMzMzMzN2MTQuMzMzMzNoMTcydi0xNC4zMzMzM3pNMCw3OC44MzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzek0wLDE0My4zMzMzM3YxNC4zMzMzM2gxNzJ2LTE0LjMzMzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/>			Nymeria Esport
+	
+	</div>
+	
+		<header id="head">
 			<div class="divheader">
 				<a class="pages" href="index.html">Accueil</a>
 				<a class="pages" href="team.html">Equipes</a>
-				<a class="pages" href="">Staff</a>
+				<a class="pages" href="staff.html">Staff</a>
 			</div>
-
+	
 			<div class="divheader">
-				<a class="pages" href="partenaires.html">Partenaires</a>
+				<a class="pages" href="partenaires.html	">Partenaires</a>
 				<a class="pages" href="boutique.html">Boutique</a>
 				<a class="pages" href="apropos.html">A propos</a>
-			</div>		
-
-	</header>
+			</div>
+	
+			<div class="mobile-menu">
+				<a class="pages" href="index.html">Accueil</a>
+				<hr>
+				<a class="pages" href="team.html">Equipes</a>
+				<hr>
+				<a class="pages" href="staff.html">Staff</a>
+				<hr>
+				<a class="pages" href="partenaires.html	">Partenaires</a>
+				<hr>
+				<a class="pages" href="boutique.html">Boutique</a>
+				<hr>
+				<a class="pages" href="apropos.html">A propos</a>
+			</div>
+		</header>
 		<a href="index.html">
 		<img class="logo" src="media/circle_logo.png">
 	</a>

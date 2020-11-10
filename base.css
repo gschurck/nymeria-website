@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 @font-face {
-    font-family: "IntegralCF-Regular";
-    src: url("media/fonts/IntegralCF-Regular.otf");
+	font-family: "IntegralCF-Regular";
+	src: url("media/fonts/IntegralCF-Regular.otf");
 }
 
 @font-face {
-    font-family: "IntegralCF-DemiBold";
-    src: url("media/fonts/IntegralCF-DemiBold.otf");
+	font-family: "IntegralCF-DemiBold";
+	src: url("media/fonts/IntegralCF-DemiBold.otf");
 }
 
 @font-face {
@@ -19,55 +19,31 @@ html {
 	background-color: #11111d;
 	text-align: center;
 	color: white;
-    font-family: "IntegralCF-Regular";
+	font-family: "IntegralCF-Regular";
+}
+
+.topbar {
+	display: none;
 }
 
 
-
-header {
-	z-index: 10;
-	height: 50px;
-	text-align: center;
-	background: #11111d;
-	color: white;
-	font-size: 30px;
-	position: fixed;
-	top: 0px;	
-	left: 0;
-	right: 0;
-	    margin-right: auto;
-    margin-left: auto;
-    /*
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px; 
-	*/
-	  text-align: center;
-  display: flex;	
-  justify-content: space-between;	
-  border: solid 2px #fbbc31;
-}
-
-.divheader{
-	display: flex;
-	justify-content: space-around;
-	width: 45%;
-}
 
 .logodiv {
-	    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
 }
 
 .logo {
-		z-index: 11;
+	z-index: 11;
 	height: 105px;
 	position: fixed;
 	top: 52px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
 .pages {
 	margin-top: 7px;
 	font-family: IntegralCF-Regular;
@@ -94,7 +70,7 @@ h1 {
 }
 
 h2 {
-	color: #fbbc31;	
+	color: #fbbc31;
 	font-family: "IntegralCF-Regular";
 	font-style: italic;
 	letter-spacing: 3px;
@@ -103,16 +79,16 @@ h2 {
 
 .vl {
 	height: 80vh;
-    border: 0;
-    width: 1px;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #fbbc31, rgba(0, 0, 0, 0));
+	border: 0;
+	width: 1px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #fbbc31, rgba(0, 0, 0, 0));
 }
 
 hr {
 	width: 100%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fbbc31, rgba(0, 0, 0, 0));
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fbbc31, rgba(0, 0, 0, 0));
 }
 
 p {
@@ -123,6 +99,7 @@ p {
 h4 {
 	letter-spacing: 1px;
 }
+
 /*
 .wrapper {
  height: 400px;
@@ -136,23 +113,120 @@ h4 {
 
 }*/
 
+.menu-logo {
+	display: none;
+}
 
 @media only screen and (max-width: 710px) {
 	a.pages {
-		font-size: 10px;
+		font-size: 25px;
 		height: 20px;
+		margin-bottom: 50px;
+		text-align: left;
 	}
+
 	h1 {
 		font-size: 30px;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
 	p {
 		font-size: 15px;
 	}
+
 	.divheader {
+		display: none;
+	}
+
+	header {
+		display: none;
+		position: fixed;
+		background-color: #11111d;
+		top: 50px;
+		z-index: 100;
+		height: 100vh;
+		width: 300px;
+		padding-top: 50px;
+	}
+
+	.menu-logo:active header {
 		display: block;
-	
+	}
+
+	.mobile-menu {
+		display: contents;
+		position: fixed;
+		height: 90vh;
+		text-align: left;
+		border-bottom: solid 1px #fbbc31;
+		background-color: #11111d;
+		width: 100vw;
+		z-index: 100;
+	}
+
+	.topbar {
+		background-color: #11111d;
+		display: flex;
+		position: fixed;
+		width: 100%;
+		height: 50px;
+		z-index: 50;
+		font-size: 20px;
+		align-items: center;
+		justify-content: space-around;
+		top: 0;
+	}
+
+	#menu1 {
+		display: block;
+	}
+
+	.menu-logo {
+		position: fixed;
+		left: 30px;
+	}
+
+	.logo {
+		display: none;
+		left: 5%;
+	}
+
+}
+
+@media only screen and (min-width: 710px) {
+	header {
+		z-index: 10;
+		height: 50px;
+		text-align: center;
+		background: #11111d;
+		color: white;
+		font-size: 30px;
+		position: fixed;
+		top: 0px;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+		/*
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px; 
+		*/
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		border: solid 2px #fbbc31;
+	}
+
+	.divheader {
+		display: flex;
+		justify-content: space-around;
+		width: 45%;
+	}
+
+	.mobile-menu {
+		display: none;
 	}
 }
