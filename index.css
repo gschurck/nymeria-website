@@ -145,8 +145,6 @@ h2 {
 		margin-top: 100px;
 		display: flex;
 		overflow: hidden;
-		align-items: center;
-		justify-items: center;
 	}
 
 	.icon {
