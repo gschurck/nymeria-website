@@ -1,5 +1,5 @@
 # nymeria-website
-[IN PROGRESS] Webiste created for Nymeria Esport association
+Webiste created for Nymeria Esport association
   
 [Nymeria website](http://nymeria-esport.fr)
 
